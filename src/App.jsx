@@ -6,7 +6,7 @@ import "./index.css";
 import { ArrowUpDown } from "lucide-react";
 
 function App() {
-  const [amount, setAmount] = useState("");
+  const [amount, setAmount] = useState(1);
   const [from, setFrom] = useState("USD");
   const [to, setTo] = useState("INR");
   const [convertedAmount, setConvertedAmount] = useState("");
